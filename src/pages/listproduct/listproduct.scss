@@ -1,0 +1,14 @@
+page-listproduct {
+  ion-item{
+    ion-label{
+      display: flex;
+      display: -webkit-flex;
+    }
+  }
+  .product-details{
+    margin-left: 20px;
+    h2{
+      margin-bottom: 10px;
+    }
+  }
+}

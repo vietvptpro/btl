@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>
+      Detail Product
+    </ion-title>
+    <ion-buttons end>
+      <button (click)="logout()" ion-button>
+        <ion-icon name="log-out"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <img width="367" height="367" src="{{product.image}}">
+  <div class="list-details">
+    <span class="title">Name:</span><span>{{product.name}}</span><br>
+    <span class="title">Price:</span><span>{{product.price| currency:'EUR':true:'4.0'}}</span><br>
+    <span class="title">Description:</span><span>{{product.description}}</span>
+  </div>
+</ion-content>

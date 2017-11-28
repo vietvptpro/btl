@@ -1,0 +1,44 @@
+<!--
+  Generated template for the Weather page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-label color="primary">View info weather by address</ion-label>
+        <ion-input type="text" id="autocomplete"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div id="map"></div>
+      </ion-col>
+    </ion-row>
+    
+    <ion-row>
+      <ion-list>
+        <ion-item>
+          <ion-icon name="nuclear"></ion-icon>
+          Temperature(Celsius) : {{temp}}
+        </ion-item>
+        <ion-item>
+          <ion-icon name="ios-water"></ion-icon>
+          Humidity (%) : {{humidity}}%
+        </ion-item>
+        <ion-item>
+          <ion-icon name="leaf"></ion-icon>
+          Weather Status: {{weatherStatus}}
+        </ion-item>
+      </ion-list>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

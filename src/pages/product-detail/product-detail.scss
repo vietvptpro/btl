@@ -1,0 +1,16 @@
+
+page-product-detail {
+  .title{
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  .title.img{
+    position: relative;
+    top: -16px;
+  }
+  .list-details {
+    margin-top: 20px;
+    line-height: 20px;
+  }
+}
